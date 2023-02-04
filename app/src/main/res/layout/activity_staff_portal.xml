@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StaffPortalActivity"
+    android:background="@color/dark_blue">
+
+    <include
+        android:id="@+id/tool"
+        layout="@layout/staff_toolbar"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/pbarStaffPortal"
+        android:background="@color/gold"
+        android:layout_below="@+id/tool"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/wvStaffPortal"
+        android:layout_below="@id/pbarStaffPortal"
+        />
+
+</RelativeLayout>

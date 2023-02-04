@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:orientation="vertical"
+    android:background="@color/whiteSmoke"
+    android:fontFamily="sans-serif-medium"
+   >
+
+
+    <include
+        android:id="@+id/tool"
+        layout="@layout/aboutus_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/appName"
+        android:text="@string/name"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/developer"
+        android:text="@string/developerName"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/org"
+        android:text="@string/hitechabout"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/support"
+        android:text="@string/contactEmail"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/whatsapp"
+        android:text="@string/WhatsApp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="10dp"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/version"
+            android:text="@string/versionabout"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="10dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

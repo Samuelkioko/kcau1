@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">KCA University</string>
+
+    <string name="KCAUNIVERSITY">KCA UNIVERSITY</string>
+    <string name="Powered">Powered by</string>
+    <string name="Motto">Advancing Knowledge, Driving Change</string>
+    <string name="hitech">Hitech</string>
+    <string name="version">V 1.3</string>
+    <string name="aboutApp">About</string>
+    <string name="name">App Name : KCA UNIVERSITY</string>
+    <string name="hitechabout">Organisation: Hitech KE</string>
+    <string name="developerName">Developer : Samuel Kioko</string>
+    <string name="versionabout">App Version : 1.3</string>
+    <string name="contactEmail">App support: hitechke64@gmail.com</string>
+    <string name="WhatsApp">WhatsApp: 0708186016</string>
+    <string name="versionUpdates">Updates</string>
+    <string name="profile">Profile</string>
+    <string name="update1">Splash screen logo reduced size</string>
+    <string name="update2">Splash screen developer</string>
+    <string name="update3">Splash screen progress bar</string>
+    <string name="update4">About app page</string>
+    <string name="update5">Welcome page</string>
+    <string name="update6">Back press icon at the top</string>
+    <string name="update7">Dashboard</string>
+    <string name="update8">onBackPress feature edited</string>
+    <string name="fullName">Full Name</string>
+    <string name="website">Website</string>
+    <string name="studentPortal">Student Portal</string>
+    <string name="lecturePortal">Lecturer Portal</string>
+    <string name="staffPortal">Staff Portal</string>
+    <string name="distantlearningPortal">Distant Learning Portal</string>
+    <string name="moodle">Student Moodle</string>
+    <string name="emailAddress">Email</string>
+    <string name="phoneNumber">Phone number</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="campus">Campus</string>
+    <string name="currentYear">Current Year of study</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="forgotpass">Forgot password?</string>
+    <string name="Home">Home</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="gender">Gender</string>
+    <string name="county">Select county</string>
+
+    <string-array name="campus">
+        <item>Select Campus</item>
+        <item>Main Campus</item>
+        <item>Town Campus</item>
+        <item>Kisumu Campus</item>
+    </string-array>
+
+    <string-array name="county">
+        <item>Baringo</item>
+        <item>Bomet</item>
+        <item>Bungoma</item>
+        <item>Elgeyo Marakwet</item>
+        <item>Embu</item>
+        <item>Garissa</item>
+        <item>Homa Bay</item>
+        <item>Isiolo</item>
+        <item>Kajiado</item>
+        <item>Kakamega</item>
+        <item>Kericho</item>
+        <item>Kiambu</item>
+        <item>Kilifi</item>
+        <item>Kirinyaga</item>
+        <item>Kisii</item>
+        <item>Kwale</item>
+        <item>Laikipia</item>
+        <item>Lamu</item>
+        <item>Machakos</item>
+        <item>Makueni</item>
+        <item>Mandera</item>
+        <item>Meru</item>
+        <item>Migori</item>
+        <item>Marsabit</item>
+        <item>Mombasa</item>
+        <item>Muranga</item>
+        <item>Nairobi</item>
+        <item>Nakuru</item>
+        <item>Nandi</item>
+        <item>Narok</item>
+        <item>Nyamira</item>
+        <item>Nyandarua</item>
+        <item>Nyeri</item>
+        <item>Samburu</item>
+        <item>Siaya</item>
+        <item>Taita Taveta</item>
+        <item>Tana River</item>
+        <item>Tharaka Nithi</item>
+        <item>Trans Nzoia</item>
+        <item>Turkana</item>
+        <item>Uasin Gishu</item>
+        <item>Vihiga</item>
+        <item>Wajir</item>
+        <item>West Pokot</item>
+    </string-array>
+
+</resources>
